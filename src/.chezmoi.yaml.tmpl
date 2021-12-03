@@ -26,7 +26,7 @@
 {{- if not $is_ephemeral -}}
 {{-   if or (eq .chezmoi.os "darwin") (eq .chezmoi.os "windows") -}}
 {{-     $is_personal = true -}}
-{{-   if stdinIsATTY -}}
+{{-   else if stdinIsATTY -}}
 {{-     if hasKey . "is_headless" -}}
 {{-       $is_headless = .is_headless -}}
 {{-     else -}}
@@ -67,7 +67,7 @@
 {{- if hasKey . "email_work" -}}
 {{-   $email_work = .email_work -}}
 {{- else if $interactive -}}
-{{-   $email_work = promptString "email" -}}
+{{-   $email_work = promptString "email_work" -}}
 {{- end -}}
 
 {{- if $interactive -}}
