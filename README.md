@@ -20,11 +20,11 @@ These dotfiles have following features:
 
 To create your own dotfiles, you can fork this repository and then search and replace following placeholders:
 
-* `<first name>`
-* `<last name>`
-* `<username>`
-* `<email>`
-* `<work email>`
+* `Ilari`
+* `Vähä-Pietilä`
+* `dagmar-ilarivp`
+* `ilari.vaha-pietila@dagmar.fi`
+* `ilari.vaha-pietila@dagmar.fi`
 
 After replacing these, you make your own customizations and additions to these files. When you´re finished, you can apply the dotfiles by following the instructions in [the next chapter](#setting-up-your-machine).
 

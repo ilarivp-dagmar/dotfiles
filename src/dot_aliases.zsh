@@ -12,9 +12,9 @@ alias tf="terraform"
 alias jn="jupyter notebook"
 
 # Directories
-alias dev="cd $HOME/Development"
-alias devd="cd $HOME/Development/Dagmar"
-alias devp="cd $HOME/Development/Personal"
+alias dev="cd $HOME/version_control"
+alias devd="cd $HOME/version_control/Dagmar"
+alias devp="cd $HOME/version_control/Personal"
 
 # Git
 alias amend="git add . && git commit -a --amend --no-edit"
